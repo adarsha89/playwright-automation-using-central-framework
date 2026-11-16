@@ -1,0 +1,28 @@
+{
+  "name": "playwright-automation-using-central-framework",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright + TypeScript test automation suite (UI + API) built on the qe-base-js central QE framework (@qe/base-js, @qe/base-api-js, @qe/base-web-js) rather than its own base layer.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "playwright test",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@qe/bom-js": "0.1.1",
+    "@qe/base-js": "0.1.1",
+    "@qe/bom-api-js": "0.1.1",
+    "@qe/base-api-js": "0.1.1",
+    "@qe/bom-web-js": "0.1.1",
+    "@qe/base-web-js": "0.1.1"
+  }
+}
